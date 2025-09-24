@@ -1,0 +1,17 @@
+name: "❓ Question"
+description: Ask about how something works
+labels: [question]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: "Your Question"
+      description: The clearer the better! Chur
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "📸 Screenshots or Videos"
+      description: If will help, you can add screenshots or a short screen recording by dragging them here.
+      placeholder: Drag & drop images or paste them directly into this box.

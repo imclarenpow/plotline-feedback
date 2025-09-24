@@ -1,0 +1,36 @@
+name: "🐛 Bug"
+description: something didnt work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "What happened?!?!?"
+      description: Tell me what you saw and what you expected instead
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Replicate"
+      description: Step-by-step instructions to trigger the bug
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment"
+      description: Device, OS & Browser if possible 💞
+      placeholder: e.g. iPhone 14, Windows, Chrome, Safari
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "📸 Screenshots or Videos"
+      description: If possible, add screenshots or a short screen recording by dragging them here or uploading them.
+      placeholder: Drag & drop images or paste them directly into this box.
